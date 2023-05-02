@@ -37,7 +37,7 @@ namespace DocumentPlagiarismChecker.Comparators.ParagraphWordCounter
         public override ComparatorMatchingScore Run(){
             //Inserta comentario generico en este lugar. Muchas gracias. :D
             //This order is meant to improving performance
-            ExcludeSampleExactMatches(); // Odio mi maldita suerte en el honkai star rail.
+            ExcludeSampleExactMatches(); // Odio mi maldita suerte en el honkai star rail XD.
             ExcludeSamplePartialMatches(this.Left, 0.70f);  //TODO: threshold value must be get from settings; check if can be removed
             ExcludeSamplePartialMatches(this.Right, 0.70f);  //TODO: threshold value must be get from settings; check if can be removed
             ExcludeExclussionListMatches();
