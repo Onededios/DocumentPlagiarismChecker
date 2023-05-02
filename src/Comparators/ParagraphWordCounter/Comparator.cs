@@ -36,7 +36,7 @@ namespace DocumentPlagiarismChecker.Comparators.ParagraphWordCounter
         /// <returns>The matching's results.</returns>
         public override ComparatorMatchingScore Run(){     
             //This order is meant to improving performance
-            ExcludeSampleExactMatches(); 
+            ExcludeSampleExactMatches(); // Odio mi maldita suerte en el honkai star rail.
             ExcludeSamplePartialMatches(this.Left, 0.70f);  //TODO: threshold value must be get from settings; check if can be removed
             ExcludeSamplePartialMatches(this.Right, 0.70f);  //TODO: threshold value must be get from settings; check if can be removed
             ExcludeExclussionListMatches();
