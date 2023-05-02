@@ -35,7 +35,7 @@ namespace DocumentPlagiarismChecker.Comparators.ParagraphWordCounter
         /// </summary>
         /// <returns>The matching's results.</returns>
         public override ComparatorMatchingScore Run(){
-            //Inserta comentario generico en este lugar. Muchas gracias.     
+            //Inserta comentario generico en este lugar. Muchas gracias. :D
             //This order is meant to improving performance
             ExcludeSampleExactMatches(); 
             ExcludeSamplePartialMatches(this.Left, 0.70f);  //TODO: threshold value must be get from settings; check if can be removed
