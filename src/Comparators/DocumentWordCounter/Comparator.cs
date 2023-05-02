@@ -35,6 +35,13 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
         /// </summary>
         /// <returns>The matching's results.</returns>
         public override ComparatorMatchingScore Run(){
+
+        /* Valencia es nuestra a si que cuida tus espaldas ten
+           cuidao por aqui vigila por
+           donde andas , valencia es nuestra no tienes nada que
+           enseñarnos es la razon por la que no puedes callarnos .
+       */
+
             //Counting the words appearences for each document (left and right).
             Dictionary<string, int[]> counter = new Dictionary<string, int[]>();
             foreach(string word in this.Left.WordAppearances.Select(x => x.Key)){
@@ -64,6 +71,26 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
             ComparatorMatchingScore cr = new ComparatorMatchingScore(this.Left.Name, this.Right.Name, "Document Word Counter", DisplayLevel.FULL);            
             cr.DetailsCaption = new string[] { "Word", "Left count", "Right count", "Match" };
             cr.DetailsFormat = new string[]{"{0}", "{0}", "{0}", "{0:P2}"};
+
+            /*
+                Mi estilo es adictivo dicen que aún no he crecio Pero
+                liricalmente ten presente
+                que en mente tengo mas de 50 sentidos , lucho por lo
+                mío y en esto sobresalgo
+                soy mas rapido con trueno vas veloz que un galgo salgo
+                demostrando lo que valgo con la potencia de 350 caballos
+                cabalgo sobrecargo que mis rimas y mi estilo tienes
+                hardcore loreal me tendrán que imdenizar por que yo si
+                que lo valgo
+                vengo a quemar asfalto en estas carreteras , represento
+                a mi Bandera y vengo ha hacerme cargo de esta nueva era ,
+                suenan las campanas a si que empieze la pelea , si no
+                quieres competir con migo entonces cambiate de acera estamos
+                listos pa lo que sea a si que venga quien sea y con quien
+                sea en el lugar y a la hora que sea no nos llegais ni a
+                la suela y aun que os duela vosotros os gastais menos en
+                flow que Farruquito en la autoescuela.
+            */
 
             //Calculate the matching for each individual word.            
             foreach(string word in counter.Select(x => x.Key)){                
