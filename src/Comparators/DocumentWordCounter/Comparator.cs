@@ -73,7 +73,7 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
                     }                    
                 }
             }
-            // ODIO MI MALDITA SUERTE EN EL HONKAI STAR RAIL
+
             //Defining the results headers
             ComparatorMatchingScore cr = new ComparatorMatchingScore(this.Left.Name, this.Right.Name, "Document Word Counter", DisplayLevel.FULL);            
             cr.DetailsCaption = new string[] { "Word", "Left count", "Right count", "Match" };
