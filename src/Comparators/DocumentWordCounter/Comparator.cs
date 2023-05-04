@@ -44,7 +44,11 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
            donde andas , valencia es nuestra no tienes nada que
            enseñarnos es la razon por la que no puedes callarnos .
        */
-
+        /* Valencia es nuestra a si que cuida tus espaldas ten
+           cuidao por aqui vigila por
+           donde andas , valencia es nuestra no tienes nada que
+           enseñarnos es la razon por la que no puedes callarnos .
+       */
             //Counting the words appearences for each document (left and right).
             Dictionary<string, int[]> counter = new Dictionary<string, int[]>();
             foreach(string word in this.Left.WordAppearances.Select(x => x.Key)){
