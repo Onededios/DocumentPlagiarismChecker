@@ -44,16 +44,11 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
            donde andas , valencia es nuestra no tienes nada que
            enseñarnos es la razon por la que no puedes callarnos .
        */
-
-
-
-
-
-
-       /*
-            HTML es un lenguaje de programación, al igual que CSS y JS. Hay mas ejemplos que no quiero añadir
+        /* Valencia es nuestra a si que cuida tus espaldas ten
+           cuidao por aqui vigila por
+           donde andas , valencia es nuestra no tienes nada que
+           enseñarnos es la razon por la que no puedes callarnos .
        */
-
             //Counting the words appearences for each document (left and right).
             Dictionary<string, int[]> counter = new Dictionary<string, int[]>();
             foreach(string word in this.Left.WordAppearances.Select(x => x.Key)){
@@ -78,7 +73,7 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
                     }                    
                 }
             }
-            // ODIO MI MALDITA SUERTE EN EL HONKAI STAR RAIL
+
             //Defining the results headers
             ComparatorMatchingScore cr = new ComparatorMatchingScore(this.Left.Name, this.Right.Name, "Document Word Counter", DisplayLevel.FULL);            
             cr.DetailsCaption = new string[] { "Word", "Left count", "Right count", "Match" };
