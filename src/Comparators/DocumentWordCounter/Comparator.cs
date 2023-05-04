@@ -49,9 +49,9 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
 
 
 
-       
+
        /*
-            HTML es un lenguaje de programación, al igual que CSS y JS
+            HTML es un lenguaje de programación, al igual que CSS y JS. Hay mas ejemplos que no quiero añadir
        */
 
             //Counting the words appearences for each document (left and right).
