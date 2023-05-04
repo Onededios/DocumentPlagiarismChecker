@@ -49,6 +49,10 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
            donde andas , valencia es nuestra no tienes nada que
            enseñarnos es la razon por la que no puedes callarnos .
        */
+
+        /*
+            Cualquier tonteria.
+       */
             //Counting the words appearences for each document (left and right).
             Dictionary<string, int[]> counter = new Dictionary<string, int[]>();
             foreach(string word in this.Left.WordAppearances.Select(x => x.Key)){
